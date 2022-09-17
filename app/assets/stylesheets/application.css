@@ -25,7 +25,7 @@ body {
   width: 100vw;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("homepage.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("homepage.jpg");
 }
 
 h1 {
