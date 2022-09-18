@@ -25,35 +25,87 @@ body {
   width: 100vw;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("homepage.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("homepage.jpg");
 }
 
 h1 {
-  color: white;
-  font-size: 5rem;
-  padding-top: 25%;
-  margin: 0%;
+  font-size: 18vh;
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(230, 230, 230);
   text-align: center;
+  margin: 0%;
+  padding-top: 22vh;
 }
 
 h4 {
-  color: white;
-  font-size: 40px;
-  margin: 0%;
+  font-size: 7vh;
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(230, 230, 230);
   text-align: center;
-  padding: 10px;
+  margin: 0;
 }
 
 p {
-  color: white;
-  font-size: 20px;
+  font-size: 4vh;
+  font-family: 'Shadows Into Light', cursive;
+  color: rgb(230, 230, 230);
   text-align: center;
-  padding: 2px;
-  margin: 0%;
+  margin: 0;
 }
 
-.copyright {
+.newsletter-submit {
   text-align: center;
+}
+
+.newsletter-name-email {
+  text-align: center;
+  padding-top: 8vh;
+}
+
+/* Style the input elements and the submit button */
+input[type=text] {
+  font-family: 'Shadows Into Light', cursive;
+  width: 30%;
+  padding: 1.5vh;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+  opacity: 0.5;
+  text-align: center;
+}
+
+input[type=submit] {
+  font-family: 'Shadows Into Light', cursive;
+  width: 60%;
+  padding: 1.5vh;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 25px;
+  opacity: 0.5;
+  text-align: center;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  font-family: 'Shadows Into Light', cursive;
+  margin-top: 16px;
+  opacity: 0.5;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  font-family: 'Shadows Into Light', cursive;
+  background-color: black;
   color: white;
-  padding-bottom: 5px;
+  border: none;
+  opacity: 0.8;
+}
+
+input[type=submit]:hover {
+  font-family: 'Shadows Into Light', cursive;
+  opacity: 0.5;
 }
